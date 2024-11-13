@@ -1,0 +1,63 @@
+/* Reset de CSS básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    color: #FFFFFF; /* Cor de texto padrão (cinza claro) */
+  }
+  
+  body {
+    line-height: 1.5;
+  }
+  
+  a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: inherit; /* Faz os links usarem a cor do texto */
+  }
+  
+  ul, ol {
+    list-style: none; 
+  }
+  
+  button, input, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  article, section, nav, footer, header, main {
+    display: block;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+  }
+  
+  table {
+    border-collapse: collapse; /* Remove espaços entre as células da tabela */
+  }
+  
+  blockquote {
+    margin: 0;
+    padding: 0;
+    quotes: none;
+  }
+  
+  code {
+    font-family: 'Courier', monospace; /* Definindo fonte padrão para código */
+  }
+  

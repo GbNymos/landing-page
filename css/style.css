@@ -1,0 +1,234 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --Fundo-principal: #13071a;
+    --destaques1:#6E2594 ;
+    --destaque2:#C91A1A;
+    --texto:#E0E0E0;
+    --texto1:#FFFFFF;
+    --cor:#DD3333 ;
+    --cor2:#9552a383;
+
+}
+
+@font-face{
+    font-family:dark;
+    src: url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet');
+}
+
+
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color:var(--Fundo-principal);
+    overflow: auto;
+    font-family:dark,Arial, Helvetica, sans-serif ;
+ 
+}
+header{
+   background-image: url("../imgs/dark_fundo.jpg");
+   background-size: cover;
+   background-position: left;
+   padding: 20px;
+
+
+
+
+}
+.banner-content{
+    text-align: center;
+    margin: auto;
+    background-color:rgba(0, 0, 0, 0.534);
+    border-radius: 10px 0px;
+    height: 50%;
+    padding: 20px;
+
+}
+.banner-content p{
+    width: 60vw;
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: dark,'Times New Roman', Times, serif;
+
+
+}
+h1{
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 3rem; 
+    color: #C91A1A; 
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8); 
+    letter-spacing: 2px; 
+    text-transform: uppercase; 
+    padding: 20px 0;
+    border-bottom: 3px solid black; 
+    margin-bottom: 20px;
+    text-align: center;
+}
+.link-manga, .link-mais{
+    background-color:#6E2594;
+    padding: 10px;
+    border-style: outset;
+    border-color:#13071a;
+    color:black;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8); 
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.384);
+    margin: 15px;
+    font-size: 1rem;
+    font-weight: bolder;
+    border-radius: 10px;
+    text-transform: capitalize; 
+    cursor: pointer;
+
+}
+.link-mais{
+    margin: 20px;
+}
+
+main{
+    margin: auto;
+
+ 
+}
+#content{
+    text-align: center;
+    padding: 20px;
+    margin: 50px;
+}
+
+#paralax{
+    background-image: url("../imgs/dark.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    display: flex;
+    align-items: center;
+   
+}
+#paralax p, #paralax h2{
+    font-family: "Kanit", sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8); 
+    letter-spacing: 1px;
+    line-height: 1.4;
+    margin: 20px;
+    max-width: 700px; 
+    text-align: center; 
+
+
+
+}
+
+#paralax h2{
+    text-align: end;
+}
+
+.texto{
+    margin: 5px;
+    background: linear-gradient(135deg, #0c0e1f, #1e1b2e, #3d2e4d, #181818);
+    text-align: justify;
+    padding: 10px;
+    margin-right: 10px;
+    border-style:outset ;
+    display: flex;
+   
+}
+.texto a{
+    text-align: auto;
+    
+}
+
+.texto >ul li{
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+
+
+#gentouga,#houzuki,#yayoi{
+    background: linear-gradient(135deg, #0c0e1f80, #1e1b2e7a, #3d2e4d, #181818);
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+}
+.person-conteiner img{
+    width: 50%; 
+    height: auto;
+    filter: drop-shadow(10px 10px 5px black);
+}
+
+
+#logo{
+    padding: 20px;
+   
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #6d25944d;
+    padding: 20px ;
+    text-align: center;
+    border-top: 2px solid #3d2e4d; 
+  }
+  
+  .footer-conteiner {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+footer a{
+    color: #C91A1A;
+}
+
+
+#icon,#icon0,#icon1{
+    background-color: #6d2594; 
+    font-size: 40px; 
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); 
+    transition: all 0.3s ease; 
+    margin-top: 5px;
+
+}
+#icon:hover, #icon0:hover, #icon1:hover {
+    background-color: #C91A1A; 
+    transform: scale(1.1); 
+}
+
+
+#icon:focus, #icon0:focus, #icon1:focus {
+    outline: none;
+    border: 2px solid  #C91A1A ; 
+}
+
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #gentouga,#houzuki,#yayoi{
+        display: block;
+    }
+    .texto{
+        text-align: center;
+        display: block;
+       
+    }
+    .person-conteiner img {
+        margin: auto;
+    }
+}
+    
